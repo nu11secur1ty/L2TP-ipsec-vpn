@@ -147,8 +147,6 @@ Enjoy your very own VPN! :sparkles::tada::rocket::sparkles:
 
 ## Important notes
 
-*Read this in other languages: [English](README.md#important-notes).*
-
 **Windows users**: This <a href="docs/clients.md#windows-error-809" target="_blank">one-time registry change</a> is required if the VPN server and/or client is behind NAT (e.g. home router).
 
 **Android 6 and 7 users**: If you encounter connection issues, try <a href="docs/clients.md#android-6-and-7" target="_blank">these steps</a>.
