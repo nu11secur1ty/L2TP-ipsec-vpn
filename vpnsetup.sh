@@ -38,7 +38,7 @@ export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
 SYS_DT=$(date +%F-%T)
 
 exiterr()  { echo "Error: $1" >&2; exit 1; }
-exiterr2() { exiterr "'apt-get install' failed."; }
+exiterr2() { exiterr "'apt install' failed."; }
 conf_bk() { /bin/cp -f "$1" "$1.old-$SYS_DT" 2>/dev/null; }
 bigecho() { echo; echo "## $1"; echo; }
 
@@ -133,14 +133,14 @@ while fuser "$APT_LK" "$PKG_LK" >/dev/null 2>&1 \
   sleep 3
 done
 
-bigecho "Populating apt-get cache..."
+bigecho "Populating apt cache..."
 
 export DEBIAN_FRONTEND=noninteractive
-apt-get -yq update || exiterr "'apt-get update' failed."
+apt -yq update || exiterr "'apt update' failed."
 
 bigecho "Installing packages required for setup..."
 
-apt-get -yq install wget dnsutils openssl \
+apt -yq install wget dnsutils openssl \
   iptables iproute2 gawk grep sed net-tools || exiterr2
 
 bigecho "Trying to auto discover IP of this server..."
@@ -160,14 +160,14 @@ check_ip "$PUBLIC_IP" || exiterr "Cannot detect this server's public IP. Edit th
 
 bigecho "Installing packages required for the VPN..."
 
-apt-get -yq install libnss3-dev libnspr4-dev pkg-config \
+apt -yq install libnss3-dev libnspr4-dev pkg-config \
   libpam0g-dev libcap-ng-dev libcap-ng-utils libselinux1-dev \
   libcurl4-nss-dev flex bison gcc make libnss3-tools \
   libevent-dev ppp xl2tpd || exiterr2
 
 bigecho "Installing Fail2Ban to protect SSH..."
 
-apt-get -yq install fail2ban || exiterr2
+apt -yq install fail2ban || exiterr2
 
 bigecho "Compiling and installing Libreswan..."
 
@@ -190,7 +190,7 @@ USE_NSS_IPSEC_PROFILE = false
 USE_GLIBC_KERN_FLIP_HEADERS = true
 EOF
 if [ "$(packaging/utils/lswan_detect.sh init)" = "systemd" ]; then
-  apt-get -yq install libsystemd-dev || exiterr2
+  apt -yq install libsystemd-dev || exiterr2
 fi
 NPROCS=$(grep -c ^processor /proc/cpuinfo)
 [ -z "$NPROCS" ] && NPROCS=1
