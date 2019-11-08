@@ -147,7 +147,7 @@ Enjoy your very own VPN! :sparkles::tada::rocket::sparkles:
 
 ## Important notes
 
-*Read this in other languages: [English](README.md#important-notes), [简体中文](README-zh.md#重要提示).*
+*Read this in other languages: [English](README.md#important-notes).*
 
 **Windows users**: This <a href="docs/clients.md#windows-error-809" target="_blank">one-time registry change</a> is required if the VPN server and/or client is behind NAT (e.g. home router).
 
