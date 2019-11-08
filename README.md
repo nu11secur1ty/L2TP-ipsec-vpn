@@ -10,7 +10,7 @@ We will use <a href="https://libreswan.org/" target="_blank">Libreswan</a> as th
 
 <a href="https://github.com/hwdsl2/docker-ipsec-vpn-server" target="_blank">**&raquo; See also: IPsec VPN Server on Docker**</a>
 
-*Read this in other languages: [English](README.md), [简体中文](README-zh.md).*
+*Read this in other languages: [English](README.md)*
 
 #### Table of Contents
 
