@@ -10,6 +10,7 @@
 #
 # Copyright (C) 2015-2019 Lin Song <linsongui@gmail.com>
 # Based on the work of Thomas Sarlandie (Copyright 2012)
+# Modified by V. Varbanovski @nu11secur1ty
 #
 # This work is licensed under the Creative Commons Attribution-ShareAlike 3.0
 # Unported License: http://creativecommons.org/licenses/by-sa/3.0/
