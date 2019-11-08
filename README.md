@@ -201,7 +201,7 @@ Please refer to <a href="docs/uninstall.md" target="_blank">Uninstall the VPN</a
 
 Copyright (C) 2014-2019 <a href="https://www.linkedin.com/in/linsongui" target="_blank">Lin Song</a> <a href="https://www.linkedin.com/in/linsongui" target="_blank"><img src="https://static.licdn.com/scds/common/u/img/webpromo/btn_viewmy_160x25.png" width="160" height="25" border="0" alt="View my profile on LinkedIn"></a>   
 
-Modified by 11.08.2019 <a href="https://www.linkedin.com/in/ventsislav-varbanovski" target="_blank">V Varbanovski</a> <a href="https://www.linkedin.com/in/ventsislav-varbanovski" target="_blank"><img src="https://static.licdn.com/scds/common/u/img/webpromo/btn_viewmy_160x25.png" width="160" height="25" border="0" alt="View my profile on LinkedIn"></a>  
+Modified by 11.08.2019 <a href="https://www.linkedin.com/in/ventsislav-varbanovski-8aa063152/" target="_blank">V. Varbanovski</a> <a href="https://www.linkedin.com/in/ventsislav-varbanovski-8aa063152/" target="_blank"><img src="https://static.licdn.com/scds/common/u/img/webpromo/btn_viewmy_160x25.png" width="160" height="25" border="0" alt="View my profile on LinkedIn"></a>  
 
 Based on <a href="https://github.com/sarfata/voodooprivacy" target="_blank">the work of Thomas Sarlandie</a> (Copyright 2012)
 
