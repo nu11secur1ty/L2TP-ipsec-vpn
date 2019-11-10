@@ -40,7 +40,7 @@ wget https://git.io/vpnsetup -O vpnsetup.sh && sudo sh vpnsetup.sh
 ```bash
 curl -s https://raw.githubusercontent.com/nu11secur1ty/ipsec-vpn/master/vpnsetup.sh | bash
 ```
-[![Evilginx Demo](https://i.imgur.com/80jcbDl.png)](https://vimeo.com/281220095)
+[![Evilginx Demo](image)](video)
 
 -------------------------------------------------------------------------------------
 
