@@ -43,7 +43,7 @@ curl -s https://raw.githubusercontent.com/nu11secur1ty/ipsec-vpn/master/vpnsetup
 [![Installing VPN](https://github.com/nu11secur1ty/ipsec-vpn/blob/master/Video_tutorial/Linux.jpg)](https://vimeo.com/372163974?activityReferer=1)
 
 - Preparing VPN Windows 10 video
-[![Installing VPN](https://github.com/nu11secur1ty/ipsec-vpn/blob/master/Video_tutorial/windows.jpg)](https://vimeo.com/372162839){:target="_blank" rel="noopener"}
+[![Installing VPN](https://github.com/nu11secur1ty/ipsec-vpn/blob/master/Video_tutorial/windows.jpg)](https://vimeo.com/372162839)
 
 
 -------------------------------------------------------------------------------------
