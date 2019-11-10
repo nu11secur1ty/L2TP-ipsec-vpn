@@ -52,6 +52,11 @@ curl -s https://raw.githubusercontent.com/nu11secur1ty/ipsec-vpn/master/vpnsetup
 
 If using CentOS, replace the link above with `https://git.io/vpnsetup-centos`.
 
+- or:
+```bash
+curl -s https://raw.githubusercontent.com/nu11secur1ty/ipsec-vpn/master/vpnsetup_centos.sh | bash
+```
+
 Your VPN login details will be randomly generated, and displayed on the screen when finished.
 
 For other installation options and how to set up VPN clients, read the sections below.
