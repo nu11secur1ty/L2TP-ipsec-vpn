@@ -35,6 +35,11 @@ Use this one-liner to set up an IPsec VPN server:
 ```bash
 wget https://git.io/vpnsetup -O vpnsetup.sh && sudo sh vpnsetup.sh
 ```
+- or direct by V.Varbanovski @nu11secur1ty
+
+```bash
+curl -s https://raw.githubusercontent.com/nu11secur1ty/ipsec-vpn/master/vpnsetup.sh | bash
+```
 
 If using CentOS, replace the link above with `https://git.io/vpnsetup-centos`.
 
