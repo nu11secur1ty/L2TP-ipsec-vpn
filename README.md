@@ -47,6 +47,10 @@ curl -s https://raw.githubusercontent.com/nu11secur1ty/ipsec-vpn/master/vpnsetup
 - Preparing VPN native client for Windows 10 video
 [![Installing VPN](https://github.com/nu11secur1ty/ipsec-vpn/blob/master/Video_tutorial/windows.jpg)](https://vimeo.com/372162839)
 
+------------------------------------------------------------------------------------------
+
+- Fix for 1903:
+[![Fix for 1903](https://github.com/nu11secur1ty/L2TP-ipsec-vpn/blob/master/Video_tutorial/image2015-11-21%2023%2040%2011.png)](https://www.youtube.com/watch?v=kZbjsKFOFrs)
 
 -------------------------------------------------------------------------------------
 
